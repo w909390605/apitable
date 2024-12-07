@@ -62,7 +62,7 @@ public class DefaultSubscriptionFeature implements SubscriptionFeature {
 
     @Override
     public Seat getSeat() {
-        return new Seat(2L);
+        return new Seat(20L);
     }
 
     @Override
@@ -72,12 +72,12 @@ public class DefaultSubscriptionFeature implements SubscriptionFeature {
 
     @Override
     public FileNodeNums getFileNodeNums() {
-        return new FileNodeNums(5L);
+        return new FileNodeNums(50L);
     }
 
     @Override
     public RowsPerSheet getRowsPerSheet() {
-        return new RowsPerSheet(100L);
+        return new RowsPerSheet(10000L);
     }
 
     @Override
